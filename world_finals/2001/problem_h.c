@@ -57,7 +57,7 @@ void print_bits(int n, uint bits)
     putchar('\n');
 }
 
-uint comparator(wires, wire1, wire2)
+uint comparator(uint wires, uint wire1, uint wire2)
 {
    uint bit1_mask, bit2_mask, bit1, bit2;
 
